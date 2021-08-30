@@ -1,0 +1,10 @@
+Static methods can t use the this keyword.
+the method that doesn t use instance variables should be declared as a static method.
+
+Instance methods belong to an instance of a class.
+It can access instance methods and instance variables directly.
+It can also access static methods and static variable directly.
+To use it we have to instantiate the class first usually by using the new keyword.
+
+Dog rex = new Dog() create instance
+rex.bark() call instance method

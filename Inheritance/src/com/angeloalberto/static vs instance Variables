@@ -1,0 +1,6 @@
+Static var are not used very ofthen but can sometimes be very useful.
+when you are using Scanner we will declare scanner as a static variable
+
+Instance var belong to an instance of a class.
+Every instance has its own copy of an instance var
+Dog rex = new Dog("rex") create instance(rex)

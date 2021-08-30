@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com_example_awtSample_jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Packages/out/artifacts/com_example_awtSample_jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../Packages/out/artifacts/com_example_awtSample_jar" recursive="false" />
+  </library>
+</component>

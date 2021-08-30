@@ -1,0 +1,19 @@
+overloading means providing two or more separate methods in a class with the same name but different parameters.
+Method return type may or may not be different and that allows us to reuse the same method name.
+
+we can overload static and instance method.
+it can call in a subclass inherits one version of the method from the parent class and then the subclass can have anotehr overloaded version of the method.
+It must have same name, but different parameters
+not polymorphism!
+
+
+Overriding means defining a method in a child class that already exists in the parent class with same signature.
+its recommended to put @Override immediately.
+we can't override static method(same name, same arguments), return type can be a subclass of the return type in the parent class.
+It can t have a lower access modifier.(may have different modifier(private, protected, public) and may throw different exceptions).
+If the parent method is protected then usind private in the child is not allowed but using public in the child would be allowed.
+
+Only inherited methods can be overridden, methods can be overridden only in child classes.
+Constructors and private methods cannot be overridden.
+Methods that are finald cannot be overriden.
+A subclass can use super.methodNam() to call the superclass version of an overridden method
